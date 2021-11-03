@@ -1,0 +1,13 @@
+.fps-monitor {
+  position: fixed;
+  z-index: 9999;
+  right: 10px;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  overflow: hidden;
+  display: none;
+}
+.fps-monitor.is-visible {
+  display: block;
+}
